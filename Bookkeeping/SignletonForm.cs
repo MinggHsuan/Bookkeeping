@@ -24,6 +24,7 @@ namespace Bookkeeping
         private static void SignletonForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+
         }
 
     }
