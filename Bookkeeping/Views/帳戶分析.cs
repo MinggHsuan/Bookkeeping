@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bookkeeping
+namespace Bookkeeping.Views
 {
     public partial class 帳戶分析 : Form
     {

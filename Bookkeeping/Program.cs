@@ -17,8 +17,7 @@ namespace Bookkeeping
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Navbar.lastForm = SignletonForm.GetForm("記一筆");
-            Application.Run(Navbar.lastForm);
+            Application.Run(SignletonForm.GetForm("記一筆"));
         }
     }
 }

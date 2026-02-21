@@ -1,4 +1,4 @@
-﻿namespace Bookkeeping
+﻿namespace Bookkeeping.Views
 {
     partial class 圖表分析
     {
@@ -33,18 +33,21 @@
             // 
             // navbar1
             // 
-            this.navbar1.Location = new System.Drawing.Point(0, 360);
+            this.navbar1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.navbar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.navbar1.Location = new System.Drawing.Point(0, 570);
             this.navbar1.Name = "navbar1";
-            this.navbar1.Size = new System.Drawing.Size(384, 91);
+            this.navbar1.Size = new System.Drawing.Size(1228, 107);
             this.navbar1.TabIndex = 0;
             // 
             // 圖表分析
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1228, 677);
             this.Controls.Add(this.navbar1);
             this.Name = "圖表分析";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "圖表分析";
             this.ResumeLayout(false);
 
