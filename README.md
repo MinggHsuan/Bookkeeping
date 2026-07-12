@@ -13,7 +13,8 @@
 ## 🏗️ 技術架構
 - **語言**：C#
 - **UI框架**：WinForm
-- **框架**：.NET Framework
+- **IDE**：Visual Studio 2022
+- **框架**：.NET Framework 4.7.2
 - **架構**：MVP
 - **設計模式**：獨體模式(Singleton Pattern)
 - **記憶體洩漏問題**：
