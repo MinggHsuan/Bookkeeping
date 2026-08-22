@@ -10,6 +10,8 @@ namespace Bookkeeping.Models
     public class DataModel : IDataModelRepository
     {
         public string[] Type = { "食", "衣", "住", "行" };
+        public string[] Target = { "自用", "爸爸", "媽媽", "朋友", "女朋友" };
+        public string[] PaymentMethods = { "現金", "信用卡", "行動支付" };
 
         public static List<string> FoodData = new List<string> { "我家牛排", "島嶼", "海港" };
         public static List<string> DressData = new List<string> { "Uniqlo", "NET", "ZARA" };
@@ -21,8 +23,6 @@ namespace Bookkeeping.Models
             {"住",StayData},
             {"行",TrafficData}
         };
-        public string[] Target = { "自用", "爸爸", "媽媽", "朋友", "女朋友" };
-        public string[] PaymentMethods = { "現金", "信用卡", "行動支付" };
 
         public static Dictionary<string, List<string>> Details = new Dictionary<string, List<string>>{
             {"食",FoodData},
